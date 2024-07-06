@@ -101,8 +101,7 @@ namespace OOP_API
 
                 //Buraya Yeni Kod Eklendi.
 
-                Random r = new Random();
-                int sayi = r.Next(1, 100);
+              
 
                 Console.WriteLine("Reports To: " + reportsToFullName);
                 Console.WriteLine("---------------------------");

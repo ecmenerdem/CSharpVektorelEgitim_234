@@ -38,6 +38,7 @@ namespace OOP_API
                         firstName = employee.firstName,
                         lastName = employee.lastName,
                         title = employee.title,
+                        reportsTo = Convert.ToInt32(employee.reportsTo) 
                     };
 
                     employees.Add(fullTimeEmployee);

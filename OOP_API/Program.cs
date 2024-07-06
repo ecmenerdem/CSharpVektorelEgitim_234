@@ -101,7 +101,8 @@ namespace OOP_API
 
                 //Buraya Yeni Kod Eklendi.
 
-              
+              var sonuc =  Math.Pow(10, 4);
+
 
                 Console.WriteLine("Reports To: " + reportsToFullName);
                 Console.WriteLine("---------------------------");

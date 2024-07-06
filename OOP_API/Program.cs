@@ -103,6 +103,10 @@ namespace OOP_API
 
               var sonuc =  Math.Pow(10, 4);
 
+                Random r = new Random();
+                int sayi = r.Next(1, 100);
+
+
 
                 Console.WriteLine("Reports To: " + reportsToFullName);
                 Console.WriteLine("---------------------------");

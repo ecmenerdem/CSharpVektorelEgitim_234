@@ -20,7 +20,7 @@ namespace OOP_API
                 firstName = "Ali",
                 lastName = "Veli",
                 id = 10,
-                title= "Project Based Employee"
+                
             };
 
 
@@ -99,7 +99,10 @@ namespace OOP_API
                 //var obj =  Activator.CreateInstance(type);
                 //var asd = mymethod.Invoke(obj, null);
 
+                //Buraya Yeni Kod Eklendi.
 
+                Random r = new Random();
+                int sayi = r.Next(1, 100);
 
                 Console.WriteLine("Reports To: " + reportsToFullName);
                 Console.WriteLine("---------------------------");
